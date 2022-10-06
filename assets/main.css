@@ -1,3 +1,5 @@
+
+
 body{
     color: aliceblue;
     display: flex;
@@ -27,12 +29,17 @@ article{
 aside{
     background-color: blueviolet;
 }
-footer{
-    background-color: gray;
-}
-section{
+
+.section{
     display: flex;
     flex-direction: column;
+    
+    
+}
+footer {
+
+    background-color: gray;
+margin: 0;
 }
 
 @media (min-width: 480px) and (max-width: 769px){
